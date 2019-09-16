@@ -1,0 +1,2 @@
+"lesson";degree;ects;semester;overall
+"example";10;5.5;1;0
