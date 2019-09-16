@@ -1,3 +1,3 @@
 # UniProgram
 2nd repository
-You need to fix your path destintion
+, you need to fix your path destintion and fix your username string and password string
