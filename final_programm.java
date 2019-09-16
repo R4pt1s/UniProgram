@@ -125,8 +125,8 @@ public class final_programm extends Frame implements WindowListener,ActionListen
                 	public void actionPerformed(ActionEvent e){
                 		
                 		
-                		String user = "leo";
-                 	    String pass = "rap"; // looks at selected file in scan
+                		String user = "xxxx"; //put your username
+                 	    String pass = "xxxx"; // put your password
                  	
                  	    String inpUser = text1.getText();
                  	    String inpPass = text2.getText(); // gets input from user
