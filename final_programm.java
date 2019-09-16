@@ -33,8 +33,8 @@ public class final_programm extends Frame implements WindowListener,ActionListen
         JLabel result3 ;
         String keyboard;
         
-        private FileReader reader = new FileReader("C:\\Users\\R4pt1s\\Desktop\\example\\MyProgramm\\src\\programm\\uni.txt");
-        private FileReader reader1 = new FileReader("C:\\Users\\R4pt1s\\Desktop\\example\\MyProgramm\\src\\programm\\Xrostoumena.txt");
+        private FileReader reader = new FileReader("C:\\Users\\R4pt1s\\Desktop\\example\\MyProgramm\\src\\programm\\Univ.txt");
+        private FileReader reader1 = new FileReader("C:\\Users\\R4pt1s\\Desktop\\example\\MyProgramm\\src\\programm\\Uni_failed.txt");
 
         public static void main(String[] args) {
                 new final_programm();
@@ -145,7 +145,7 @@ public class final_programm extends Frame implements WindowListener,ActionListen
 		                   			FileEditor editor = new FileEditor(reader.readFile());
 		                   			reader.closeReader();
 		                   			editor.fillHashMap();
-		                   			FileWriter writer = new FileWriter("C:\\Users\\R4pt1s\\Desktop\\example\\MyProgramm\\src\\programm\\Final_output.txt");
+		                   			FileWriter writer = new FileWriter("C:\\Users\\R4pt1s\\Desktop\\example\\MyProgramm\\src\\programm\\Final_output_Univ.txt");
 		                   			if(writer.initWriter())
 		                   			{
 		                   				
@@ -434,7 +434,7 @@ public class final_programm extends Frame implements WindowListener,ActionListen
 		    		    			FileEditor editor = new FileEditor(reader1.readFile());
 		    		    			reader1.closeReader();
 		    		    			editor.fillHashMap();
-		    		    			FileWriter writer = new FileWriter("C:\\Users\\R4pt1s\\Desktop\\example\\MyProgramm\\src\\programm\\Final_output_Xrostoumena.txt");
+		    		    			FileWriter writer = new FileWriter("C:\\Users\\R4pt1s\\Desktop\\example\\MyProgramm\\src\\programm\\Final_output_Uni_failed.txt");
 		    		    			if(writer.initWriter())
 		    		    			{
 		    		    				writer.writeFile1("*****Welcome , here you can find your Xrostoumena*****");	
